@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: quantum-mechanics-notes
+    runtime: static
+    buildCommand: npm ci && npx quartz plugin install --from-config && npx quartz build
+    staticPublishPath: ./public
+    autoDeployTrigger: commit
