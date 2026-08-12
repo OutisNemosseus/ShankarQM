@@ -101,7 +101,7 @@ plugins:
       replaceFigureWithMdImg: false
       replaceOrgLatex: true
     order: 25
-    order: 91
+    
   - source: "@quartz-community/roam"
     enabled: false
     order: 92
