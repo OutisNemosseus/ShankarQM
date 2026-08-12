@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: zh-CN
-  baseUrl: YOUR-SITE.onrender.com
+  baseUrl: shankarqm.onrender.com
   ignorePatterns:
     - private
     - templates
