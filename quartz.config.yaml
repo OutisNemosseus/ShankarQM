@@ -93,7 +93,14 @@ plugins:
     enabled: false
     order: 90
   - source: "@quartz-community/ox-hugo"
-    enabled: false
+    enabled: true
+    options:
+    wikilinks: false
+    removePredefinedAnchor: false
+    removeHugoShortcode: false
+    replaceFigureWithMdImg: false
+    replaceOrgLatex: true
+  order: 25
     order: 91
   - source: "@quartz-community/roam"
     enabled: false
