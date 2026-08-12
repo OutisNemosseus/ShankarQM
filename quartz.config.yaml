@@ -95,12 +95,12 @@ plugins:
   - source: "@quartz-community/ox-hugo"
     enabled: true
     options:
-    wikilinks: false
-    removePredefinedAnchor: false
-    removeHugoShortcode: false
-    replaceFigureWithMdImg: false
-    replaceOrgLatex: true
-  order: 25
+      wikilinks: false
+      removePredefinedAnchor: false
+      removeHugoShortcode: false
+      replaceFigureWithMdImg: false
+      replaceOrgLatex: true
+    order: 25
     order: 91
   - source: "@quartz-community/roam"
     enabled: false
