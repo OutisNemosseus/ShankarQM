@@ -5,3 +5,7 @@ services:
     buildCommand: npm ci && npx quartz plugin install --from-config && npx quartz build && node scripts/duplicate-clean-urls.mjs
     staticPublishPath: ./public
     autoDeployTrigger: commit
+    routes:
+      - type: redirect
+        source: /*
+        destination: /*/
